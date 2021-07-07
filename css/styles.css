@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Roboto Mono', sans-serif;
+    background: rgb(245, 241, 236);
+    margin: 20px;
+}
+
+body,
+section,
+div{
+    background: rgb(245, 241, 236);
+}
+
+
+.container__intro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    justify-items: center;
+    
+}
+
+.container__intro, div{
+    padding: 20px;
+    margin: 30px;
+}
+
+.profile__title{
+    font-size: 50px;
+}
+
+.projects,
+.projects__container{
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-world,
+.les-ausentes{
+    background-color: rgba(255, 255, 255, 0.213);
+    border-radius: 7px;
+}
+
+.project__img{
+    width: 550px;
+}
+
+.project__description{
+    text-align: justify;
+    width: 550px;
+}
+
+.project__description,
+.project__title{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.213);
+}
+
+.contact{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    font-size: 10px;
+}
